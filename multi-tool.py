@@ -4,6 +4,10 @@ import time
 import requests
 from googlesearch import search
 import webbrowser
+#made by JaCrispy, or McPlubby
+#please dont rebrand this as yours :)
+#note, the number game doesnt work or the time, youll need to fix those
+
 while True:
     tool = input("1. Choice Helper, 2. Time, 3. Heads or Tails, 4. google search, 5. Day Calc, 6. Magic 8ball, 7. Number Game, 8. Exit: ")
 
