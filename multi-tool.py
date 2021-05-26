@@ -12,7 +12,7 @@ while True:
     tool = input("1. Choice Helper, 2. Time, 3. Heads or Tails, 4. google search, 5. Day Calc, 6. Magic 8ball, 7. Number Game, 8. Exit: ")
 
 
-    if tool ==("1"):
+    if tool == ("1"):
 
         choice1 = input("choice 1: ")
 
@@ -21,9 +21,6 @@ while True:
         vars = [choice1,choice2]
 
         print (random.sample(vars, 1))
-
-        
-
 
 
     if tool ==("2"):
@@ -120,11 +117,12 @@ while True:
             print("Not a chance")
 
 
-
+    #tool 7 doesnt work
     if tool ==("7"):
-
-        print("work in progress")
-        end
+        print("not working")
+        quit()
+        
+        
 
         print("I am thinkning of a number between 1 and 20 ")
 
@@ -134,7 +132,7 @@ while True:
 
         if guess == number:
 
-            print("you win")
+           print("you win")
 
         if guess < number:
 
@@ -143,7 +141,15 @@ while True:
         if guess > number:
 
             print("too high")
-   
+        
+
+   #this might have to be changed if you add more tools
+    if tool == "9":
+        print("please select a valid tool")
+    #this might have to be changed if you add more tools
+    if tool <"9":
+        print("please select a valid tool")
+
     if tool == "8":
         print("goodbye")
         time.sleep(3)
